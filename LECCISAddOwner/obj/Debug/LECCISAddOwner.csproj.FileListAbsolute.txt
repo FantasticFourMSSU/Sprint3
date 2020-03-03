@@ -7,3 +7,12 @@ C:\Users\Matt Sommer\source\repos\LECCISAddOwner\obj\Debug\LECCISSearch.Properti
 C:\Users\Matt Sommer\source\repos\LECCISAddOwner\obj\Debug\LECCISAddOwner.csproj.GenerateResource.cache
 C:\Users\Matt Sommer\source\repos\LECCISAddOwner\obj\Debug\LECCISSearch.exe
 C:\Users\Matt Sommer\source\repos\LECCISAddOwner\obj\Debug\LECCISSearch.pdb
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISAddOwner\bin\Debug\LECCISSearch.exe.config
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISAddOwner\bin\Debug\LECCISSearch.exe
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISAddOwner\bin\Debug\LECCISSearch.pdb
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISAddOwner\obj\Debug\LECCISAddOwner.addOwnerForm.resources
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISAddOwner\obj\Debug\LECCISSearch.Properties.Resources.resources
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISAddOwner\obj\Debug\LECCISAddOwner.csproj.GenerateResource.Cache
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISAddOwner\obj\Debug\LECCISAddOwner.csproj.CoreCompileInputs.cache
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISAddOwner\obj\Debug\LECCISSearch.exe
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISAddOwner\obj\Debug\LECCISSearch.pdb
