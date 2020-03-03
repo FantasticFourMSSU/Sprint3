@@ -83,6 +83,7 @@
             this.button.TabIndex = 4;
             this.button.Text = "SUBMIT";
             this.button.UseVisualStyleBackColor = true;
+            this.button.Click += new System.EventHandler(this.button_Click);
             // 
             // label1
             // 
@@ -141,7 +142,7 @@
             this.Controls.Add(this.lastName);
             this.Controls.Add(this.firstName);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "addOwnerForm";
             this.Text = "Law Enforcement Community Check Information System (LECCIS)";
             this.ResumeLayout(false);
