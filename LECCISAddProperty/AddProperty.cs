@@ -10,11 +10,24 @@ using System.Windows.Forms;
 
 namespace LECCISAddProperty
 {
-  public partial class addPropertyForm : Form
+  public partial class addProperty : Form
   {
-    public addPropertyForm()
+    
+    public addProperty()
     {
       InitializeComponent();
     }
+
+    private void Address_Enter(object sender, EventArgs e)
+    {
+      Address.ForeColor = Color.Gray;
+    }
+
+    private void Address_Leave(object sender, EventArgs e)
+    {
+      Address.ForeColor = Color.Black;
+    }
+
+    
   }
 }
