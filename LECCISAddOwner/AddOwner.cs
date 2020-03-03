@@ -12,8 +12,13 @@ namespace LECCISAddOwner
 {
   public partial class addOwnerForm : Form
   {
-        private TextBox emailDisplay;
         
+        private TextBox firstNameDisplay;
+        private TextBox lastNameDisplay;
+        private TextBox phoneNumberDisplay;
+        private TextBox emailDisplay;
+
+
         public addOwnerForm()
     {
       InitializeComponent();
@@ -21,12 +26,12 @@ namespace LECCISAddOwner
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            emailDisplay.Text = "";
+            firstNameDisplay.Text = "";
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-
+            phoneNumberDisplay.Text = "";
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -56,7 +61,22 @@ namespace LECCISAddOwner
 
         private void email_TextChanged(object sender, EventArgs e)
         {
+            emailDisplay.Text = "";
+        }
 
+        private void lastName_TextChanged(object sender, EventArgs e)
+        {
+            lastNameDisplay.Text = "";
+        }
+
+        private void button_MouseEnter(object sender, EventArgs e)
+        {
+            (sender as Button).BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+        }
+
+        private void button_MouseLeave(object sender, EventArgs e)
+        {
+            (sender as Button).BackColor = System.Drawing.SystemColors.Control;
         }
     }
 }
