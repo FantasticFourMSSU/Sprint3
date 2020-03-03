@@ -12,14 +12,16 @@ namespace LECCISAddOwner
 {
   public partial class addOwnerForm : Form
   {
-    public addOwnerForm()
+        private TextBox emailDisplay;
+        
+        public addOwnerForm()
     {
       InitializeComponent();
     }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            emailDisplay.Text = "";
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
@@ -50,6 +52,11 @@ namespace LECCISAddOwner
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void email_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -73,6 +73,7 @@
             this.email.Name = "email";
             this.email.Size = new System.Drawing.Size(175, 23);
             this.email.TabIndex = 3;
+            this.email.TextChanged += new System.EventHandler(this.email_TextChanged);
             // 
             // button
             // 
