@@ -39,26 +39,6 @@ namespace LECCISAddOwner
 
         }
 
-        private void button_Click(object sender, EventArgs e)
-        {
-            string str = "datasource = ; username = ; password =  ";
-            string query = "INSERT INTO Owner( firstName, lastName, phoneNumber, email) VALUES (' " + this.firstNameDisplay.Text + " ','" + this.lastNameDisplay.Text + " ', '" + this.phoneNumberDisplay.Text + " ',' " + this.emailDisplay.Text; "');
-            SqlConnection con = new SqlConnection(str);
-            SqlCommand cmd = new SqlCommand(query, con);
-          
-            try
-            {
-                con.open();
-                DataSet ds = new DataSet();
-                MessageBox.Show("Saved");
-                con.Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
-
         private void email_TextChanged(object sender, EventArgs e)
         {
             emailDisplay.Text = "";
@@ -78,6 +58,25 @@ namespace LECCISAddOwner
         {
             (sender as Button).BackColor = System.Drawing.SystemColors.Control;
         }
+        
+        private void button_Click(object sender, EventArgs e)
+        {
+            string str = "datasource = ; username = ; password =  ";
+            string query = "INSERT INTO Owner( firstName, lastName, phoneNumber, email) VALUES (' " + this.firstNameDisplay.Text + " ','" + this.lastNameDisplay.Text + " ', '" + this.phoneNumberDisplay.Text + " ',' " + this.emailDisplay.Text + "')";
+            SqlConnection con = new SqlConnection(str);
+            SqlCommand cmd = new SqlCommand(query, con);
+          
+            try
+            {
+                con.open();
+                DataSet ds = new DataSet();
+                MessageBox.Show("Saved");
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }
-//
