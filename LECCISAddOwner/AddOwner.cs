@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -55,23 +56,49 @@ namespace LECCISAddOwner
         {
             (sender as Button).BackColor = System.Drawing.SystemColors.Control;
         }
-        
+
+        private MySqlConnection ConnectToDatabase()
+        {
+            string myconnection = "Server= 209.106.201.103; Database=group6; uid=dbstudent14;pwd=spicymonster10";
+            MySqlConnection conn = new MySqlConnection(myconnection);
+            conn.Open();
+            if (conn.State == System.Data.ConnectionState.Open)
+            {
+                MessageBox.Show("connection opened");
+                
+            }
+            return conn;
+
+
+        }
+
         private void button_Click(object sender, EventArgs e)
         {
+            MySqlConnection conn = ConnectToDatabase();
 
-      string myconnection = "Server= 209.106.201.103; Database=group6; uid=dbstudent14;pwd=spicymonster10";
-      MySqlConnection conn = new MySqlConnection(myconnectionstring);
-      conn.Open();
-      if (conn.State == System.Data.ConnectionState.Open)
-      {
-        MessageBox.Show("connection opened");
-        conn.Close();
-      }
+            string sql = "SELECT * FROM Owner";
+            using (MySqlCommand cmd = new MySqlCommand(sql, conn))
+            {
+                using (MySqlDataReader rdr = cmd.ExecuteReader())
+                {
+                    while (rdr.Read())
+                    {
+                        MessageBox.Show(string.Format("{0} {1} {2}", rdr.GetInt32(0), rdr.GetString(1),
+                                rdr.GetString(2)));
+
+                    }
+
+                }
+            }
+            conn.Close();
+
+
+
             //string str = "datasource = ; username = ; password =  ";
             //string query = "INSERT INTO Owner( firstName, lastName, phoneNumber, email) VALUES (' " + this.firstNameDisplay.Text + " ','" + this.lastNameDisplay.Text + " ', '" + this.phoneNumberDisplay.Text + " ',' " + this.emailDisplay.Text + "')";
             //SqlConnection con = new SqlConnection(str);
             //SqlCommand cmd = new SqlCommand(query, con);
-          
+
             //try
             //{
             //    con.open();
