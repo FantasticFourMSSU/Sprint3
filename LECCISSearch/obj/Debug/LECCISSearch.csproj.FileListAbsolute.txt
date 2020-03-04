@@ -20,3 +20,6 @@ C:\Users\momotam001\Source\Repos\Sprint3\LECCISSearch\obj\Debug\LECCISSearch.csp
 C:\Users\remskyl001\Source\Repos\Sprint3\LECCISSearch\bin\Debug\LECCISSearch.exe.config
 C:\Users\remskyl001\Source\Repos\Sprint3\LECCISSearch\obj\Debug\LECCISSearch.exe
 C:\Users\remskyl001\Source\Repos\Sprint3\LECCISSearch\obj\Debug\LECCISSearch.pdb
+C:\Users\Remsk\Source\Repos\Sprint32\LECCISSearch\bin\Debug\LECCISSearch.exe.config
+C:\Users\Remsk\Source\Repos\Sprint32\LECCISSearch\obj\Debug\LECCISSearch.exe
+C:\Users\Remsk\Source\Repos\Sprint32\LECCISSearch\obj\Debug\LECCISSearch.pdb
