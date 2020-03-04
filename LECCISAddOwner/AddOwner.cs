@@ -12,14 +12,14 @@ namespace LECCISAddOwner
 {
   public partial class addOwnerForm : Form
   {
-        
-        private TextBox firstNameDisplay;
-        private TextBox lastNameDisplay;
-        private TextBox phoneNumberDisplay;
-        private TextBox emailDisplay;
+
+    private TextBox firstNameDisplay;
+    private TextBox lastNameDisplay;
+    private TextBox phoneNumberDisplay;
+    private TextBox emailDisplay;
 
 
-        public addOwnerForm()
+    public addOwnerForm()
     {
       InitializeComponent();
     }
@@ -34,10 +34,7 @@ namespace LECCISAddOwner
             phoneNumberDisplay.Text = "";
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void email_TextChanged(object sender, EventArgs e)
         {
@@ -61,22 +58,31 @@ namespace LECCISAddOwner
         
         private void button_Click(object sender, EventArgs e)
         {
-            string str = "datasource = ; username = ; password =  ";
-            string query = "INSERT INTO Owner( firstName, lastName, phoneNumber, email) VALUES (' " + this.firstNameDisplay.Text + " ','" + this.lastNameDisplay.Text + " ', '" + this.phoneNumberDisplay.Text + " ',' " + this.emailDisplay.Text + "')";
-            SqlConnection con = new SqlConnection(str);
-            SqlCommand cmd = new SqlCommand(query, con);
+
+      string myconnection = "Server= 209.106.201.103; Database=group6; uid=dbstudent14;pwd=spicymonster10";
+      MySqlConnection conn = new MySqlConnection(myconnectionstring);
+      conn.Open();
+      if (conn.State == System.Data.ConnectionState.Open)
+      {
+        MessageBox.Show("connection opened");
+        conn.Close();
+      }
+            //string str = "datasource = ; username = ; password =  ";
+            //string query = "INSERT INTO Owner( firstName, lastName, phoneNumber, email) VALUES (' " + this.firstNameDisplay.Text + " ','" + this.lastNameDisplay.Text + " ', '" + this.phoneNumberDisplay.Text + " ',' " + this.emailDisplay.Text + "')";
+            //SqlConnection con = new SqlConnection(str);
+            //SqlCommand cmd = new SqlCommand(query, con);
           
-            try
-            {
-                con.open();
-                DataSet ds = new DataSet();
-                MessageBox.Show("Saved");
-                con.Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+            //try
+            //{
+            //    con.open();
+            //    DataSet ds = new DataSet();
+            //    MessageBox.Show("Saved");
+            //    con.Close();
+            //}
+            //catch (Exception ex)
+            //{
+            //    MessageBox.Show(ex.Message);
+            //}
         }
     }
 }
