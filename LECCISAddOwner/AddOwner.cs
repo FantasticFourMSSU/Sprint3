@@ -42,7 +42,7 @@ namespace LECCISAddOwner
         private void button_Click(object sender, EventArgs e)
         {
             string str = "datasource = ; username = ; password =  ";
-            string query = "INSERT INTO Owner( firstName, lastName, phoneNumber, email) VALUES (' " + this.firstName.Text + " ','" + this.lastName.Text + " ', '" + this.phoneNumber.Text + " ',' " + this.email.Text; "');
+            string query = "INSERT INTO Owner( firstName, lastName, phoneNumber, email) VALUES (' " + this.firstNameDisplay.Text + " ','" + this.lastNameDisplay.Text + " ', '" + this.phoneNumberDisplay.Text + " ',' " + this.emailDisplay.Text; "');
             SqlConnection con = new SqlConnection(str);
             SqlCommand cmd = new SqlCommand(query, con);
           
