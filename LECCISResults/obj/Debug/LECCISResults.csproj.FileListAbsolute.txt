@@ -7,3 +7,25 @@ C:\Users\Matt Sommer\source\repos\LECCISResults\obj\Debug\LECCISSearch.Propertie
 C:\Users\Matt Sommer\source\repos\LECCISResults\obj\Debug\LECCISResults.csproj.GenerateResource.cache
 C:\Users\Matt Sommer\source\repos\LECCISResults\obj\Debug\LECCISSearch.exe
 C:\Users\Matt Sommer\source\repos\LECCISResults\obj\Debug\LECCISSearch.pdb
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISResults\bin\Debug\LECCISSearch.exe.config
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISResults\bin\Debug\LECCISSearch.exe
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISResults\bin\Debug\LECCISSearch.pdb
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISResults\bin\Debug\MySqlConnector.dll
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISResults\bin\Debug\System.Buffers.dll
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISResults\bin\Debug\System.Memory.dll
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISResults\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISResults\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISResults\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISResults\bin\Debug\MySqlConnector.xml
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISResults\bin\Debug\System.Buffers.xml
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISResults\bin\Debug\System.Memory.xml
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISResults\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISResults\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISResults\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISResults\obj\Debug\LECCISResults.csprojResolveAssemblyReference.cache
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISResults\obj\Debug\LECCISResults.csproj.LECCISSearch.exe.config
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISResults\obj\Debug\LECCISResults.resultsForm.resources
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISResults\obj\Debug\LECCISSearch.Properties.Resources.resources
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISResults\obj\Debug\LECCISResults.csproj.GenerateResource.Cache
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISResults\obj\Debug\LECCISSearch.exe
+C:\Users\momotam001\Source\Repos\Sprint3\LECCISResults\obj\Debug\LECCISSearch.pdb
