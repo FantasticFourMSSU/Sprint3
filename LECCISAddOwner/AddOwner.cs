@@ -1,4 +1,4 @@
-﻿using MySql.Data.MySqlClient;
+﻿
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,16 +8,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace LECCISAddOwner
 {
   public partial class addOwnerForm : Form
   {
 
-    private TextBox firstNameDisplay;
-    private TextBox lastNameDisplay;
-    private TextBox phoneNumberDisplay;
-    private TextBox emailDisplay;
+    //private TextBox firstNameDisplay;
+    //private TextBox lastNameDisplay;
+    //private TextBox phoneNumberDisplay;
+    //private TextBox emailDisplay;
 
 
     public addOwnerForm()
@@ -25,27 +26,7 @@ namespace LECCISAddOwner
       InitializeComponent();
     }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            firstNameDisplay.Text = "";
-        }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-            phoneNumberDisplay.Text = "";
-        }
-
-       
-
-        private void email_TextChanged(object sender, EventArgs e)
-        {
-            emailDisplay.Text = "";
-        }
-
-        private void lastName_TextChanged(object sender, EventArgs e)
-        {
-            lastNameDisplay.Text = "";
-        }
 
         private void button_MouseEnter(object sender, EventArgs e)
         {
@@ -74,25 +55,37 @@ namespace LECCISAddOwner
 
         private void button_Click(object sender, EventArgs e)
         {
-            MySqlConnection conn = ConnectToDatabase();
+            var FN = firstName.Text;
+            var LN = lastName.Text;
+            var PN = phoneNumber.Text;
+            var EM = email.Text;
 
-            string sql = "SELECT * FROM Owner";
-            using (MySqlCommand cmd = new MySqlCommand(sql, conn))
+            if (PN == "" || EM == "")
+                MessageBox.Show("insert values");
+            else
             {
-                using (MySqlDataReader rdr = cmd.ExecuteReader())
+
+                MySqlConnection conn = ConnectToDatabase();
+
+
+                string sql = "INSERT INTO Owner(firstName, lastName, phoneNumber, email) VALUES (' " + this.firstName.Text + " ','" + this.lastName.Text + " ', '" + this.phoneNumber.Text + " ',' " + this.email.Text + " ' )";
+                using (MySqlCommand cmd = new MySqlCommand(sql, conn))
                 {
-                    while (rdr.Read())
+                    using (MySqlDataReader rdr = cmd.ExecuteReader())
                     {
-                        MessageBox.Show(string.Format("{0} {1} {2}", rdr.GetInt32(0), rdr.GetString(1),
-                                rdr.GetString(2)));
+                        while (rdr.Read())
+                        {
+                            MessageBox.Show(string.Format("{0} {1} {2}", rdr.GetInt32(0), rdr.GetString(1),
+                                    rdr.GetString(2)));
+
+                        }
 
                     }
-
                 }
+
+                conn.Close();
+
             }
-            conn.Close();
-
-
 
             //string str = "datasource = ; username = ; password =  ";
             //string query = "INSERT INTO Owner( firstName, lastName, phoneNumber, email) VALUES (' " + this.firstNameDisplay.Text + " ','" + this.lastNameDisplay.Text + " ', '" + this.phoneNumberDisplay.Text + " ',' " + this.emailDisplay.Text + "')";

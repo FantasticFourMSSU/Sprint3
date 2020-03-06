@@ -48,11 +48,10 @@
             // 
             this.firstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.firstName.ForeColor = System.Drawing.Color.Gray;
-            this.firstName.Location = new System.Drawing.Point(431, 132);
+            this.firstName.Location = new System.Drawing.Point(431, 129);
             this.firstName.Name = "firstName";
             this.firstName.Size = new System.Drawing.Size(175, 23);
             this.firstName.TabIndex = 0;
-            this.firstName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // lastName
             // 
@@ -62,7 +61,6 @@
             this.lastName.Name = "lastName";
             this.lastName.Size = new System.Drawing.Size(175, 23);
             this.lastName.TabIndex = 1;
-            this.lastName.TextChanged += new System.EventHandler(this.lastName_TextChanged);
             // 
             // phoneNumber
             // 
@@ -72,7 +70,6 @@
             this.phoneNumber.Name = "phoneNumber";
             this.phoneNumber.Size = new System.Drawing.Size(175, 23);
             this.phoneNumber.TabIndex = 2;
-            this.phoneNumber.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // email
             // 
@@ -82,7 +79,6 @@
             this.email.Name = "email";
             this.email.Size = new System.Drawing.Size(175, 23);
             this.email.TabIndex = 3;
-            this.email.TextChanged += new System.EventHandler(this.email_TextChanged);
             // 
             // button
             // 
@@ -188,7 +184,7 @@
             this.Controls.Add(this.lastName);
             this.Controls.Add(this.firstName);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "addOwnerForm";
             this.Text = "Law Enforcement Community Check Information System (LECCIS)";
             this.ResumeLayout(false);
