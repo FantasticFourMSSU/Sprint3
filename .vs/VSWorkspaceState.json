@@ -1,11 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\LECCIS",
     "\\LECCISAddOwner",
     "\\LECCISAddProperty",
     "\\LECCISResults",
     "\\LECCISSearch"
   ],
-  "SelectedNode": "\\LECCISAddOwner\\AddOwner.cs",
-  "PreviewInSolutionExplorer": false
+  "SelectedNode": "\\LECCISSearch\\Search.Designer.cs",
+  "PreviewInSolutionExplorer": true
 }
