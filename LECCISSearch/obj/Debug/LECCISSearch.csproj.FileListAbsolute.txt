@@ -32,3 +32,11 @@ C:\Users\Matt Sommer\Source\Repos\FantasticFourMSSU\Sprint3\LECCISSearch\obj\Deb
 C:\Users\Matt Sommer\Source\Repos\FantasticFourMSSU\Sprint3\LECCISSearch\obj\Debug\LECCISSearch.csproj.CoreCompileInputs.cache
 C:\Users\Matt Sommer\Source\Repos\FantasticFourMSSU\Sprint3\LECCISSearch\obj\Debug\LECCISSearch.exe
 C:\Users\Matt Sommer\Source\Repos\FantasticFourMSSU\Sprint3\LECCISSearch\obj\Debug\LECCISSearch.pdb
+C:\Users\Matt Sommer\Source\Repos\FantasticFourMSSU\Sprint3\LECCISSearch\bin\Debug\MySql.Data.dll
+C:\Users\Matt Sommer\Source\Repos\FantasticFourMSSU\Sprint3\LECCISSearch\bin\Debug\Google.Protobuf.dll
+C:\Users\Matt Sommer\Source\Repos\FantasticFourMSSU\Sprint3\LECCISSearch\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Matt Sommer\Source\Repos\FantasticFourMSSU\Sprint3\LECCISSearch\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Matt Sommer\Source\Repos\FantasticFourMSSU\Sprint3\LECCISSearch\bin\Debug\Renci.SshNet.dll
+C:\Users\Matt Sommer\Source\Repos\FantasticFourMSSU\Sprint3\LECCISSearch\bin\Debug\MySql.Data.xml
+C:\Users\Matt Sommer\Source\Repos\FantasticFourMSSU\Sprint3\LECCISSearch\obj\Debug\LECCISSearch.csprojAssemblyReference.cache
+C:\Users\Matt Sommer\Source\Repos\FantasticFourMSSU\Sprint3\LECCISSearch\obj\Debug\LECCISSearch.csproj.CopyComplete

@@ -68,10 +68,10 @@ namespace LECCISAddOwner
         conn.Close();
       }
             //string str = "datasource = ; username = ; password =  ";
-            //string query = "INSERT INTO Owner( firstName, lastName, phoneNumber, email) VALUES (' " + this.firstNameDisplay.Text + " ','" + this.lastNameDisplay.Text + " ', '" + this.phoneNumberDisplay.Text + " ',' " + this.emailDisplay.Text + "')";
+            string query = "Select O.firstName, O.lastName, O.email, O.phoneNumber, P.streetNumnber,P.city, P.state, P.zip, P.acres, P.sqft From Owner O, Property P, OwnerWithProperty OP where O.OwnerId = OP.OwnerId AND P.PropertyId = OP.PropertyId AND streetNumnber like" + '%'searchPropertySATextBox.Text'%'";
             //SqlConnection con = new SqlConnection(str);
             //SqlCommand cmd = new SqlCommand(query, con);
-          
+
             //try
             //{
             //    con.open();
