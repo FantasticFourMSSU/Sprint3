@@ -38,5 +38,5 @@ C:\Users\Matt Sommer\Source\Repos\FantasticFourMSSU\Sprint3\LECCISSearch\bin\Deb
 C:\Users\Matt Sommer\Source\Repos\FantasticFourMSSU\Sprint3\LECCISSearch\bin\Debug\Ubiety.Dns.Core.dll
 C:\Users\Matt Sommer\Source\Repos\FantasticFourMSSU\Sprint3\LECCISSearch\bin\Debug\Renci.SshNet.dll
 C:\Users\Matt Sommer\Source\Repos\FantasticFourMSSU\Sprint3\LECCISSearch\bin\Debug\MySql.Data.xml
-C:\Users\Matt Sommer\Source\Repos\FantasticFourMSSU\Sprint3\LECCISSearch\obj\Debug\LECCISSearch.csprojAssemblyReference.cache
 C:\Users\Matt Sommer\Source\Repos\FantasticFourMSSU\Sprint3\LECCISSearch\obj\Debug\LECCISSearch.csproj.CopyComplete
+C:\Users\Matt Sommer\source\repos\FantasticFourMSSU\Sprint3\LECCISSearch\obj\Debug\LECCISSearch.csprojAssemblyReference.cache
