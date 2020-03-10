@@ -16,5 +16,15 @@ namespace LECCISSearch
     {
       InitializeComponent();
     }
-  }
+
+        private void searchOwnerFNTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void searchPropertyStreetTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
