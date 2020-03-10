@@ -109,5 +109,10 @@ namespace LECCISAddOwner
         {
 
         }
+
+        private void firstName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
