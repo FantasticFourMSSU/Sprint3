@@ -81,3 +81,6 @@ C:\Users\momotam001\Source\Repos\Sprint32\LECCISSearch\obj\Debug\LECCISSearch.cs
 C:\Users\momotam001\Source\Repos\Sprint33\LECCISSearch\bin\Debug\LECCISSearch.exe.config
 C:\Users\momotam001\Source\Repos\Sprint33\LECCISSearch\obj\Debug\LECCISSearch.exe
 C:\Users\momotam001\Source\Repos\Sprint33\LECCISSearch\obj\Debug\LECCISSearch.pdb
+C:\Users\Remsk\Source\Repos\Sprint4\LECCISSearch\bin\Debug\LECCISSearch.exe.config
+C:\Users\Remsk\Source\Repos\Sprint4\LECCISSearch\obj\Debug\LECCISSearch.exe
+C:\Users\Remsk\Source\Repos\Sprint4\LECCISSearch\obj\Debug\LECCISSearch.pdb
